@@ -1,0 +1,30 @@
+# --- Arduino IDE Derleme ve Geçici Kalıntıları ---
+*.hex
+*.elf
+*.eep
+*.lst
+*.map
+*.sym
+*.core
+
+# --- Proteus (ISIS / ARES) Otomatik Kayıt ve Yedek Dosyaları ---
+*.pdsbak
+*.DBK
+*.bck
+*.LOG
+*.err
+*.txt
+Last\ Loaded\ *.pdsprj
+
+# --- IDE ve Editör Kalıntıları (VS Code, Keil, Atmel Studio vb.) ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.sln
+
+# --- Yerel Test Raporları ve Çıktılar ---
+*.doc
+*.docx
+*.pdf
